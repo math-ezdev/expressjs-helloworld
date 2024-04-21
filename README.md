@@ -4,6 +4,8 @@
 
 - Install dependences `npm i`
 - Config file .env `MONGODB_URL = your-mongodb-connection-url`
+- Run the app `npm run dev`
+
 - How to use response middleware
 
 ```
@@ -14,7 +16,6 @@ res.apiSuccess(data, message, statusCode: options)
 next(error)
 next(createError.Unauthorized(message))
 ```
-- Run the app `npm run dev`
 
 ## Source
 
