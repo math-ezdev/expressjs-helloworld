@@ -14,6 +14,7 @@ res.apiSuccess(data, message, statusCode: options)
 next(error)
 next(createError.Unauthorized(message))
 ```
+- Run the app `npm run dev`
 
 ## Source
 
